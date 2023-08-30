@@ -13,6 +13,8 @@ export default ((opts?: Options) => {
     return (
       <footer>
         <hr />
+        <p>This site is a part of <a href="https://ring.simonwu.dev">Cozyring</a>.
+        <br/><a href="https://ring.simonwu.dev/prev/sw">Previous</a> - <a href="https://ring.simonwu.dev/random/sw">Random</a> - <a href="https://ring.simonwu.dev/next/sw">Next</a></p>
         <p>
           © Simon Wu {year}. Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>.
         </p>
