@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -7,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/shangmingwu",
+      Twitter: "https://twitter.com/realsimonwu",
+      "Substack": "https://simonwu.substack.com/",
     },
   }),
 }
@@ -22,8 +24,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Writing",
+        limit: 4,
+        filter: (f) =>
+          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
+        linkToMore: "posts/" as SimpleSlug,
+      }),
+    ),
   ],
-  right: [Component.Graph(), Component.Backlinks()],
+  right: [
+    //Component.Graph(), 
+    Component.Backlinks()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
