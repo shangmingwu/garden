@@ -5,6 +5,12 @@ import readingTime from "reading-time"
 export default (() => {
   function ContentMetadata({ cfg, fileData }: QuartzComponentProps) {
     const text = fileData.text
+    
+    // do not render metadata for index pages
+    if (fileData.slug === "index") {
+      return null
+    }
+
     if (text) {
       const segments: string[] = []
       const { text: timeTaken, words: _words } = readingTime(text)
