@@ -2,4 +2,4 @@
 title: All Projects
 ---
 
-My past projects.
+This is a selection of my past and current projects.
