@@ -8,10 +8,11 @@ date: 2023-10-29 10:00:00
 I'm currently:
 
 - Studying computer science (and possibly also majoring in math) at the University of Waterloo.
-  - This term (Fall 2023) I'm organizing the Effective Altruism Club on-campus.
+  - Currently looking for something interesting to do during my fall co-op term.
 - Building [[projects/index|random projects]] in my free time.
 - Occasionally [[posts/index|writing]] when I have an idea.
-- Becoming more active - I've started going to the gym with my friends, and I'm also learning to curl!
+- Becoming more active.
+  - At this point I've become an active gym-goer, and I'm still trying to lose weight.
 
 # Little interesting things
 

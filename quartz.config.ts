@@ -14,8 +14,8 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "EB Garamond",
-        body: "PT Serif",
+        header: "Sarala",
+        body: "Schibsted Grotesk",
         code: "Inconsolata",
       },
       colors: {
