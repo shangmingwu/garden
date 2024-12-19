@@ -1,6 +1,7 @@
 ---
 title: Names and Language
 date: 2023-08-02 11:00:00
+draft: true
 ---
 
 *This post can also be found on my [Substack](https://simonwu.substack.com/p/recent-thoughts-1-names-and-language).*

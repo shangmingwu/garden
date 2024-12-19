@@ -1,6 +1,7 @@
 ---
 title: Is Human Enough?
 date: 2023-06-18 11:00:00
+draft: true
 ---
 
 *This post can also be found on my [Substack](https://simonwu.substack.com/p/is-human-enough).*
