@@ -27,5 +27,3 @@ Check me out on:
 - [LinkedIn](https://linkedin.com/in/shangmingwu)
 - [GitHub](https://github.com/shangmingwu)
 - [Substack](https://simonwu.substack.com)
-
-(You can also see my [resume](https://shangmingwu.github.io/docs/resume.pdf)).
